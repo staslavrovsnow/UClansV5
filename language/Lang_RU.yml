@@ -1,0 +1,1231 @@
+ 
+ 
+ # ПЕРЕВОДЫ ЯЗЫКОВЫХ И ДИАЛОГОВЫХ ФАЙЛОВ
+ 
+LANGUAGE:
+  command by player: '%tag% <red>Эта команда должна использоваться игроком.'
+  command by console: '%tag% <red>Эта команда должна использоваться КОНСОЛЬЮ.'
+  empty chat help: '%tag% <red>Ошибка, Используйте <aqua>/. <message>'
+  disabled world command: '%tag% <red>Точки домов для клановы выключены для этого мира.'
+  error start action: '%tag% <red>Возникла ошибка при выполнении.'
+  error character: '%tag% <red>Значение содержит недопустимые символы.'
+  error mod desc: '%tag% <red>Ошибка при изменении описания клана.'
+  has globalff: '%tag% <green>Глобальный дружественный огонь теперь включен!'
+  no permission: '%tag% <red>У вас нет прав доступа'
+  chest extra buyed update: '%tag% <aqua>%player% <green>приобрел новый сундук для клана.'
+  region list header: '<blue>Список регионов:'
+  region list empty: <dark_gray> - Нет сохраненный регионов
+  region list format: ' <aqua>%region_name% <gray>- %region_creator% <gray>- <aqua>%region_firstpoint%<gray>/<aqua>%region_secondpoint%'
+  region not exists: '%tag% <red>Нет такого региона.'
+  region exists: '%tag% <red>Регион с таким названием уже есть.'
+  currency vault: Money
+  currency playerpoints: Points
+  currency clansouls: Souls
+  export same storage: '%tag% <red>You must choose a different storage than the current one to export.'
+  export no data: '%tag% <red>There is currently no data to export.'
+  export mysql deconfigured: '%tag% <red>An error occurred, mysql fields are misconfigured.'
+  export mysql connection error: '%tag% <red>There was an error connecting to MYSQL.'
+  export sqlite connection error: '%tag% <red>There was an error connecting to SQLITE.'
+  export yaml connection error: '%tag% <red>There was an error connecting to YAML.'
+  tag in use: '%tag% <red>Этот Тег уже используется.'
+  clan not found: '%tag% <red>Клана с таким Тегом не существует.'
+  clan ally header: <blue>Список союзников. <dark_gray>(тег/kdr/участники)
+  clan list empty: ' <red>В этом списке нет Кланов.'
+  clan is your clan: '%tag% <red>Это ваш Клан.'
+  clan is rival: '%tag% <red>Этот Клан уже стал соперником.'
+  clan already ally: '%tag% <red>Этот Клан уже стал союзником.'
+  clan dont ally: '%tag% <red>Это не союзный Клан.'
+  clan player isnot your clan: '%tag% <red>Этот игрок не в вашем Клане.'
+  clan max members: <red>Этот Клан уже достиг лимита участников.
+  clan max members level: '%tag% <red>Этот Клан уже достиг лимита участников для своего уровня.'
+  clan player kicked out: '%tag% <green>Вы были выгнаны из клана <aqua>%clan% <red><green>%clan_leader%'
+  clan player kicked outby: '%tag% <dark_red>%player% <yellow>был выгнан из клана <green>%clan_leader%'
+  clan tag equals: '%tag% <red>Тег не изменён. Видимо, он такой же.'
+  clan name equals: '%tag% <red>Имя не изменено. Видимо, оно такое же.'
+  clan already rival: '%tag% <red>Этот Клан уже стал соперником.'
+  clan is ally: '%tag% <red>This Этот Клан уже стал союзником.'
+  clan rival error add: '%tag% <red>Ошибка при добавлении соперника.'
+  clan rival error remove: '%tag% <red>Ошибка при удалении соперника.'
+  clan dont rival: '%tag% <red>Этот клан не соперник.'
+  clan new ally: '%tag% <red>! <yellow>Был сформирован новый альянс с <green>%clan_tag%'
+  clan removed ally: '%tag% <red>! <yellow>Альянс с кланом <green>%clan_tag% <yellow>был разрушен.'
+  clan one removed ally: '%tag% <red>! <yellow>Союзник был удален.'
+  clan one removed rival: '%tag% <red>! <yellow>Соперник был удален.'
+  clan created: '%tag% <red>! <yellow>Новый Клан <aqua>%clan_tag% <yellow>был создан <green>%player%.'
+  clan deleted: '%tag% <red>! <yellow>Клан <aqua>%clan_tag% <yellow>был распущен <green>%player%.'
+  clan deleted small: <red><strikethrough>Удалён
+  clan ff changed: '%tag% <red>! <yellow>Дружественный урон <aqua>%value%.'
+  clan globalff changed: '%tag% <red>! <yellow>Глобальный дружественный урон <aqua>%value%.'
+  clan new join: '%tag% <red>! <yellow>Игрок <green>%player% <yellow>вступил в клан.'
+  clan new kick: '%tag% <red>! <yellow>Игрок <green>%player% <yellow>был изгнан из клана.'
+  clan new leave: '%tag% <red>! <red>The player <green>%player% <yellow>left the <green>%clan_tag% <red>Clan.'
+  clan new rival: '%tag% <red>! <yellow>Новое соперничество с кланом <green>%clan_tag%'
+  clan new rival removed: '%tag% <red>! <yellow>Cоперничество с кланом <green>%clan_tag% <yellow>прекращено.'
+  clan new leader: '%tag% <red>! <yellow>Новый лидер клана <green>%clan_tag% <yellow>- <green>%player%'
+  clan rival removed: '%tag% <red>! <yellow>Соперничество с кланом <green>%clan_tag% <yellow>было отменено.'
+  clan verify changed: '%tag% <red>! <yellow>Клан был изменен на <green>%value%.'
+  clan new promote: '%tag% <red>! <yellow>Игрок <green>%player% <yellow>был повышен.'
+  clan new demote: '%tag% <red>! <red>Игрок <green>%player% <yellow>был понижен.'
+  clan pvp disabled: '%tag% <red>Клановое PVP теперь выключено.'
+  clan allypvp disabled: '%tag% <red>PVP между союзниками выключено.'
+  clan tag blacklist: '%tag% <red>Этот Тег нельзя использовать в Кланах.'
+  clan changed settings: '%tag% <green>Настройки клана были изменены.'
+  clan settings warinvite: <aqua>Приглашение на войну
+  clan settings allysharedchat: <aqua>Совместный чат союзников
+  clan settings joinleave: <aqua>Вход и Выход
+  clan settings allysharedhome: <aqua>Точки дома союзников
+  clan settings clanff: <aqua>Дружественный урон клана
+  clan settings membermanagerhomes: <aqua>участник управляет домами
+  clan settings membermanagerwars: <aqua>член управлять войнами
+  clan settings opened: <aqua>Clan open to all
+  clan delete error gui: <dark_red>Ошибка удаляется!
+  clan no actions: '%tag% <red>Нет действий для отмены.'
+  clan sign create: =CLAN TAG ABOVE=
+  clan sign desc: ===DESC ABOVE===
+  clan sign invite: =NICKNAME ABOVE=
+  clan point reason level change: Clan level change
+  clan point reason quest finished: Finished quest %uclans_quest_finished%
+  clan point reason no reason: No reason
+  help uclan header: '<dark_red>Админ | Помощь по кланам:'
+  help clan header: '<blue>Помощь с Кланом:'
+  help info header: '<blue>Информация о клане <dark_gray>%clan_tag%<blue>:'
+  help info empty: <red>Ничего
+  help clanlist: '<blue>Список кланов: <dark_gray>(rank/tag/desc/kdr/members)'
+  help clanlist subheader: ' <dark_gray>Отображается %cur%/%amount% из %total% (Страница: %pag_cur%/%pag_max%)'
+  help profile header: '<blue>Профиль <green>%player%<blue>:'
+  help rival header: <blue>Список соперников. <dark_gray>(tag/kdr/members)
+  help stats header: '<blue>Статус Клана <green>%clan_tag%<blue>:'
+  help stats format player: '  <gray><green>%list_player% <gray>- <aqua>%list_player_role% <gray>- <aqua>%list_player_kills%<dark_gray>/<aqua>%list_player_deaths% <dark_gray>(%list_player_kdr%) <gray>[%list_player_seen_date%]'
+  translaction players: игроки
+  translaction is on: <green>Онлайн
+  translaction is off: <red>Оффлайн
+  translaction yes: <aqua>ДА
+  translaction no: <red>НЕТ
+  clan dont leader: '%tag% <red>Вы не являетесь лидером Клана.'
+  clan dont permission top demote: '%tag% <red>Вы не можете понижать игроков.'
+  clan dont permission top promote: '%tag% <red>Вы не можете повышать игроков.'
+  player no invitation: '%tag% <red>У вас нет приглашений.'
+  clan dont mod and leader: '%tag% <red>Вы не Лидер или Модератор Клана.'
+  clan dont mod and leader gui: <red>Требуется <dark_red>Лидер <red>или <dark_red>Модератор<red>!
+  player dont mod: '%tag% <red>Этот игрок не модератор.'
+  player is mod: '%tag% <red>Этот игрок уже модератор.'
+  player offline: '%tag% <red>Этот игрок оффлайн или не существует!'
+  player cannot expel leader: '%tag% <red>Вы не можете изгнать лидера Клана.'
+  player cannot expel mod: '%tag% <red>Модератор не может исключить другого с той же должности.'
+  player is clan leader: '%tag% <red>Вы лидер Клана, чтобы выйти используйте <aqua>/clan disband<red> и вы удалите клан ...'
+  you donthave clan: '%tag% <red>У вас нет Клана.'
+  player donthave clan: '%tag% <red>У этого игрока нет Клана.'
+  player have clan: '%tag% <red>У вас уже есть Клан.'
+  player has clan: '%tag% <red>Этот игрок уже в Клане.'
+  player is you: '%tag% <red>Этот игрок - вы.'
+  player dont have money: '%tag% <red>Вам нужно <green>%uclans_money_currency%%amount% <red>для этого.'
+  player dont have money gui: <red>Вам нужно <green>%uclans_money_currency%%amount%
+  player debited money: '%tag% <green>С вашего счета было списано <green>%amount%.'
+  player deposited money: '%tag% <green>%uclans_money_currency%%amount% <yellow>было начислено на ваш счет.'
+  player invitation player expired: '%tag% <red>Срок действия вашего приглашения игрока истек, и вы не получили ответа.'
+  player invitation expired: '%tag% <red>Ваше приглашение в Клан <white>%clan_tag% <red>eистекло.'
+  player invitation daniel: '%tag% <red>Игрок отклонил ваше приглашение.'
+  player already invited: '%tag% <red>Для этого игрока уже есть приглашение!'
+  player already invited gui: <red>Invitation for player in progress!
+  player invitation error: '%tag% <red>There was an error sending the invite.'
+  player invitation error gui: <red>Error to sending the invite.
+  player invitation success: '%tag% <red>The invitation was sent successfully.'
+  player invitation success gui: <green>Invitation sent successfully!
+  gui error: '%tag% <red>Это меню содержит ошибку и не может быть открыто'
+  player teleport dont move: '%tag% <green>Подготовка к телепортации, не двигайтесь %sec% сек.'
+  player teleport moved: '%tag% <red>Вы двигались и телепортация была отменена!!!'
+  player teleport true: '%tag% <green>Вы были телепортированы!'
+  player teleport false: '%tag% <red>Вы не были телепортированы из-за какой-то ошибки!'
+  unknown error: '%tag% <red>Произошла неизвестная ошибка, пожалуйста, попробуйте еще раз!'
+  nothing here: <red>Здесь ничего.
+  clan empty name: <red><Без имени!>
+  clan empty desc: <red><Без описания!>
+  json advanced action create: '%tag% <gray>Введите в чате название нового клана, который вы хотите создать или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action disband: '%tag% <gray>Введите <aqua>%confirm_action% <reset><gray>в чат для подтверждения или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action changeleder: '%tag% <gray>Введите <aqua>%confirm_action% <reset><gray>в чат для подтверждения или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action modtag: '%tag% <gray>Введите в чат новый Тег Клана или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action desc: '%tag% <gray>Введите в чат описание клана или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action name: '%tag% <gray>Введите в чат новое название клана или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json advanced action invite: '%tag% <gray>Напишите в чат кого вы хотите пригласить или используйте <red>/clan cancel <reset><gray>для отмены!'
+  json simple invite received: ' <red>! <yellow>Вы получили приглашение вступить в Клан <white>%clan_tag%<yellow>, приглашение истечет через <aqua>%sec_expires% сек<yellow>. <yellow>Используйте <aqua>/clan join %clan_tag_nocolor% <yellow>или <aqua>/clan deny %clan_tag_nocolor%'
+  json advanced help pagination: ' <red>Для следующей страницы используйте: <aqua>/clan help [страница]'
+  json simple command unknown: '%tag% <red>Неизвестная команда, используйте <aqua>/uclan help <red>чтобы увидеть список доступных команд.'
+  json simple command unknown player: '%tag% <red>Неизвестная команда, используйте <aqua>/clan help <red>чтобы увидеть список доступных команд.'
+  json simple clan ally rival list format: ' <dark_gray>%clan_tag% <gray>- <aqua>%clan_kdr% <gray>- <aqua>%clan_members_count%'
+  json simple clan list format: ' <green>%clan_rank%° <gray>- <dark_gray>%clan_tag% <gray>- <white>%clan_desc% <gray>- <aqua>%clan_kdr% <gray>- <aqua>%clan_members_count%'
+  json simple list next: ' <aqua>Следующая страница >>'
+  json simple list prev: ' << <aqua>Предыдущая страница'
+  json simple list controler: ' << <aqua>Предыдущая страница'
+  json simple clan deleted: ' <green>%clan_rank%° <gray>- <red><strikethrough>Удалить клан!'
+  disabled function: '%tag% <red>Эта функция/аддон, похоже, отключена.'
+  admin opened clanchest: '%tag% <red>Админ открыл клановый сундук.'
+  top kdr format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Kdr: <aqua>%uclans_clan_kdr%'
+  top kill format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Убийств: <aqua>%uclans_clan_kills%'
+  top death format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Смертей: <aqua>%uclans_clan_deaths%'
+  top member format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Участников: <aqua>%uclans_count_members%'
+  top bank format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Банк: <aqua>%uclans_bank_balance%'
+  top level format: '<aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <white>Уровень: <aqua>%uclans_level%'
+  top war format: <aqua>%num%º <gray>| <green>%uclans_tag_color% <gray>| <green>%uclans_clan_war_win%<gray>/<dark_red>%uclans_clan_war_lose%
+  clan new balance: '%tag% <green>Новйы баланс банка <green>%uclans_money_currency%%uclans_bank_balance%<yellow>, изменил <green>%uclans_player%'
+  clan quest change: '%tag% <green>Гостевые баллы Клана теперь <aqua>%uclans_quest_points%<yellow>, всего завершено <aqua>%uclans_quest_finished%'
+  player reseted kdr: '%tag% <green>У игрока <green>%player% <yellow>был сброшен KDR!'
+  clan reseted kdr: '%tag% <green>У Клана <green>%uclans_tag_color% <yellow>был сброшен KDR!'
+  value greater than zero: '%tag% <red>Значение должно быть больше чем 0'
+  clan level change: '%tag% <green><aqua>Клан %clan% <yellow>теперь на уровне <aqua>%num%'
+  clan not have levels: '%tag% <red>У Клана нет уровней для удаления'
+  clan has only levels: '%tag% <red>У Клана всего <aqua>%num% <red>ур.'
+  command in cooldown: '%tag% <red>Подождите <aqua>%sec% <red>чтобы использовать команду снова.'
+  error length: '%tag% <red>Значение должно иметь длину между <aqua>%min% <red>и <aqua>%max%'
+  kits list header: '<blue>Список наборов:'
+  kits list empty: ' <red>- Нет наборов для отображения'
+  kits list format: ' <green>%kit_name% <gray>- <gray>%kit_desc% <gray>- <white>Дата: <aqua>%kit_creation_date%'
+  kit not exists: '%tag% <red>Нет набора с таким названием.'
+  kit already exists: '%tag% <red>Набор с таким названием уже есть.'
+  empty inventory: '%tag% <red>Ваш инвентарь не может быть пустым.'
+  state true: <green>ENABLED
+  state false: <red>DISABLED
+  accept type: '%tag% <red>Недопустимый тип, используйте: <aqua>%types%'
+  clan regroup invite expired: '%tag% <red>Срок приглашения к перегруппировке истек!'
+  clan regroup invite doesnot exists: '%tag% <red>Запрос на перегруппировку не отправлен.'
+  clan regroup invite already exists: '%tag% <red>Уже отправлен запрос на перегруппировку.'
+  clan regroup invite deny: '%tag% <red>Игрок <green>%player% <red>отклонил ваш запрос!'
+  clan regroup invite accept: '%tag% <red>Игрок <green>%player% <yellow>принял ваш запрос!'
+  clan regroup invite already denied: '%tag% <red>Вы уже отменили запрос.'
+  clan regroup invite already accepted: '%tag% <red>Вы уже приняли запрос.'
+  clan has no members: '%tag% <red>В вашем клане нет участников.'
+  disabled world regroup: '%tag% <red>Вы не можете отправлять запросы на перегруппировку в этом мире.'
+  disabled region regroup: '%tag% <red>Вы не можете отправлять запросы на перегруппировку в этом регионе.'
+  disabled region command: '%tag% <red>Вы не можете использовать эти команды в этом регионе.'
+  clan rival remove already invited: '%tag% <red>Уже есть запрос о мире от вашего клана или другого клана, находящегося в процессе, к этому клану, подождите и повторите попытку.!'
+  clan rival remove error: '%tag% <red>Произошла ошибка при отправке запроса!'
+  clan rival remove moderation offline: '%tag% <red>В клане нет модераторов или лидеров онлайн.'
+  clan rival remove sended: '%tag% <green>Запрос на мир отправлен, ждите, пока клан примет или отклонит его.'
+  clan rival remove not found: '%tag% <red>Просьбы о мире не поступали.'
+  clan rival remove deny: '%tag% <red>Вы отклонили просьбу об отмене соперничества.'
+  clan rival remove deny received: '%tag% <red>Клан отклонил просьбу о мире..'
+  clan rival remove expired: '%tag% <red>Срок действия приглашения к миру истек!'
+  clan ally invite not found: '%tag% <red>Предложений о союзе не поступало.'
+  clan ally invite deny: '%tag% <red>Вы отклонили предложение о союзе.'
+  clan ally invite already invited: '%tag% <red>В этот клан уже поступило приглашение от вашего или другого клана, подождите и повторите попытку!'
+  clan ally invite error: '%tag% <red>Произошла ошибка при отправке запроса!'
+  clan ally invite moderation offline: '%tag% <red>В клане нет модераторов или лидеров онлайн.'
+  clan ally invite sended: '%tag% <green>Предложение отправлено, ждите, пока клан примет или отклонит его.'
+  clan ally invite expired: '%tag% <red>Приглашение в альянс истекло!'
+  clan ally invite deny received: '%tag% <red>Клан отклонил запрос на союз.'
+  clan not have points: '%tag% <red>Клан не имеет очков для удаления'
+  clan has only points: '%tag% <red>У Клана есть только <aqua>%num% <red>очков'
+  clan ally in limit: '%tag% <red>Ваш клан достиг лимита союзников и должен набрать уровни, чтобы разблокировать больше союзников, Текущий лимит вашего клана составляет <aqua>%uclans_limit_ally%'
+  clan rival in limit: '%tag% <red>Ваш клан достиг лимита соперников и должен набрать уровни, чтобы разблокировать больше соперников, Текущий лимит вашего клана составляет <aqua>%uclans_limit_rival%'
+  command deprecated: '%tag% <red>Эта команда устарела и может быть удалена из настроек'
+  chan does not exists: '%tag% <red>Этот клан не существует'
+  need level min: '%tag% <red>Ваш клан должен иметь как минимум <aqua>%level% <red>ур. для этого!'
+  disabled region chest: '%tag% <red>Вы не можете использовать сундуки в этом регионе..'
+  player_leave: '%tag% <red>Участник <aqua>%player% <red>вышел из сети.'
+  player_join: '%tag% <green>Участник <aqua>%player% <green>вошёл в сеть.'
+  home already exists: '%tag% <red>Уже есть игрок с таким именем.'
+  home create error: '%tag% <red>Ошибка при создании.'
+  home create success: '%tag% <green>Новая точка дома создана успешно!'
+  home no exists: '%tag% <red>Игрока с таким именем не существует.'
+  home no exists gui: <red>С этим домом произошла ошибка.
+  home delete error: '%tag% <red>Произошла ошибка при удалении.'
+  home delete error gui: <red>Произошла ошибка при удалении.
+  home delete success: '%tag% <green>Точка дома успешно удален!'
+  home delete success gui: <green>Успешно удалено!
+  new create home: '%tag% <green>Новая клановая точка успешно создана на сервере <aqua>%server% <green>с именем <aqua>%name%'
+  home removed: '%tag% <red>Точка дома <aqua>%name% <red>сервера <aqua>%server% <red>клана была удалена'
+  disabled region home: '%tag% <red>Точки домов для клановы выключены для этого региона.'
+  home limit: <red>Это лимит (%limit%) для вашего Клана!
+  home limit reached: '%tag% <red>Лими для вашего клана - %homes% точек дома.'
+  new point received: '%tag% <green>Ваш клан получил <aqua>%points% очков<green>, и теперь имеет <aqua>%totalpoints% очков  (%reason%)'
+  new point removed: '%tag% <red>Ваш клан потерял <aqua>%points% очков<red>, и теперь имеет <aqua>%totalpoints% очков  (%reason%)'
+  new point set: '%tag% <green>Очки вашего клана были изменены на <aqua>%totalpoints%  (%reason%)'
+ 
+# ПЕРЕВОД ФАЙЛОВ ГРАФИЧЕСКОГО ИНТЕРФЕСА МЕНЮ
+ 
+GUI:
+  General disband_confirm title: <red>Подтвердите удаление Клана?
+  General disband_confirm items fill name: ' '
+  General disband_confirm items fill lore: [
+    ]
+  General disband_confirm items confirm name: <green>Подтвердить
+  General disband_confirm items confirm lore:
+  - ''
+  - ' <red>Нажмите, чтобы подтвердить.'
+  General disband_confirm items cancel name: <green>Отмена
+  General disband_confirm items cancel lore:
+  - ''
+  - ' <yellow>Нажмите для отмены.'
+  General changeleader_confirm title: <red>Подтвердите смену лидера Клана?
+  General changeleader_confirm items fill name: ' '
+  General changeleader_confirm items fill lore: [
+    ]
+  General changeleader_confirm items confirm name: <green>Подтвердить
+  General changeleader_confirm items confirm lore:
+  - ''
+  - ' <red>Нажмите, чтобы подтвердить.'
+  General changeleader_confirm items cancel name: <green>Cancel
+  General changeleader_confirm items cancel lore:
+  - ''
+  - ' <yellow>Нажмите для отмены.'
+  Home clan_home title: <blue>Клановый Дом
+  Home clan_home items fill name: ' '
+  Home clan_home items fill lore: [
+    ]
+  Home clan_home items ally_homes name: <green>Просмотреть дома союзников
+  Home clan_home items ally_homes lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть.'
+  Home clan_home items create name: <green>Создать новый дом
+  Home clan_home items create lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы создать.'
+  Home clan_home items back name: <red>Назад
+  Home clan_home items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Home clan_home items next name: <green>Следующая страница
+  Home clan_home items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы продолжить.'
+  Home clan_home items previous name: <green>Предыдущая страница
+  Home clan_home items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Home clan_home items current name: <green>Дом %uclans_home:<num>:name%
+  Home clan_home items current lore:
+  - ''
+  - ' <yellow>Информация о точке Дома'
+  - ' <gray>'
+  - ' <gray>Сервер: <green>%uclans_home:<num>:server%'
+  - ' <gray>Имя: <aqua>%uclans_home:<num>:name%'
+  - ''
+  - ' <yellow>Левый-Клик для телепортации '
+  - ' <red>Правый-Клик для удаления.'
+  Home clan_delhome_confirm title: <red>Подтвердите удаление дома <dark_red>%home_name% <red>?
+  Home clan_delhome_confirm items fill name: ' '
+  Home clan_delhome_confirm items fill lore: [
+    ]
+  Home clan_delhome_confirm items confirm name: <green>Подтвердить
+  Home clan_delhome_confirm items confirm lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы подтвердить.'
+  Home clan_delhome_confirm items cancel name: <green>Нажмите, чтобы cancel
+  Home clan_delhome_confirm items cancel lore:
+  - ' '
+  - ' <yellow>Нажмите для отмены.'
+  General noclan_home title: <blue>Клан <gray>| <red>Без клана
+  General noclan_home items fill name: ' '
+  General noclan_home items fill lore: [
+    ]
+  General noclan_home items fill2 name: ' '
+  General noclan_home items fill2 lore: [
+    ]
+  General noclan_home items commands name: <green>Список Команд и Помощь
+  General noclan_home items commands lore:
+  - ' <yellow>Нажмите, чтобы увидеть полный список'
+  - <yellow>для Кланов и Территорий.
+  General noclan_home items clans name: <green>Все Кланы
+  General noclan_home items clans lore:
+  - ' <yellow>Нажмите, чтобы открыть клан-меню.'
+  General noclan_home items create name: <red>You dont have a Clan
+  General noclan_home items create lore:
+  - ' <yellow>Нажмите, чтобы создать Клан.'
+  General noclan_home items profile name: <green>Your profile
+  General noclan_home items profile lore:
+  - ' <yellow>Click to open your profile'
+  General clan_home title: <blue>Меню Клана
+  General clan_home items fill name: ' '
+  General clan_home items fill lore: [
+    ]
+  General clan_home items fill2 name: ' '
+  General clan_home items fill2 lore: [
+    ]
+  General clan_home items info name: <green>Клан %uclans_tag_color%
+  General clan_home items info lore:
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>Очки: <green>%uclans_points%'
+  - ' <gray>Банк: <green>%uclans_money_currency%%uclans_bank_balance%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Описание: <aqua>%uclans_desc_color%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы открыть статус-лист.'
+  General clan_home items banner name: <green>Clan Banner
+  General clan_home items banner lore:
+  - ' '
+  - ' <yellow>Информация о баннере:'
+  - ''
+  - ' <white>Есть баннер: <aqua>%uclans_hasbanner_formated%'
+  - ' '
+  - ' <yellow>Баннер клана - это ваш бренд'
+  - <yellow>и ваш <aqua>NEXUS <yellow>использует, чтобы отметить территорию!
+  - ' <yellow>Только Лидер или Модераторы могут'
+  - <yellow>изменить баннер Клана
+  General clan_home items clans name: <green>Все Кланы
+  General clan_home items clans lore:
+  - ' <yellow>Нажмите чтобы открыть список кланов.'
+  General clan_home items commands name: <green>Список Команд и Помощь
+  General clan_home items commands lore:
+  - ' <yellow>Нажмите, чтобы увидеть полный список'
+  - <yellow>команд Кланов и Территорий.
+  General clan_home items settings name: <green>Настройки Клана
+  General clan_home items settings lore:
+  - ' <yellow>Нажмите, чтобы открыть.'
+  General clan_home items home name: <green>Открыть меню домов.
+  General clan_home items home lore:
+  - ' <yellow>Нажмите, чтобы открыть.'
+  General clan_home items ally name: <green>Союзы
+  General clan_home items ally lore:
+  - ' '
+  - ' <gray>Союзников: <aqua>%uclans_clan_count_ally%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы открыть меню союзов.'
+  General clan_home items rival name: <green>Rivalries
+  General clan_home items rival lore:
+  - ' '
+  - ' <gray>Соперников: <aqua>%uclans_clan_count_rival%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы открыть меню соперников.'
+  General clan_home items members name: <green>Clan Members
+  General clan_home items members lore:
+  - ' '
+  - ' <gray>Участников: <aqua>%uclans_count_members%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы открыть меню участников.'
+  General player_profile title: <blue>Профиль <gray>| <green>%uclans_player%
+  General player_profile items head name: <green>%uclans_player%
+  General player_profile items head lore:
+  - ''
+  - ' <gray>Клан: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' '
+  - ' <gray>Никнейм: <aqua>%uclans_player%'
+  - ' <gray>KDR: <aqua>%uclans_player_kills%<dark_gray>/<aqua>%uclans_player_deaths% <dark_gray>(%uclans_player_kdr%)'
+  - ' <gray>Вступил: <aqua>%uclans_player_joindate_formated%'
+  - ' <gray>Заходит последний раз: <aqua>%uclans_player_lastsee_formated%'
+  General player_profile items back name: <red>Вернуться обратно
+  General player_profile items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General player_profile items fill name: ' '
+  General player_profile items fill lore: [
+    ]
+  General clan_stats title: <blue>Статистика <gray>| %uclans_tag_color%
+  General clan_stats items fill name: ' '
+  General clan_stats items fill lore: [
+    ]
+  General clan_stats items back name: <red>Вернуться
+  General clan_stats items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_stats items limits name: '<green>Лимиты Клана:'
+  General clan_stats items limits lore:
+  - ' '
+  - '<yellow>Про Лимиты:'
+  - ' '
+  - ' <gray>Домов: <aqua>%uclans_limit_home%'
+  - ' <gray>Союзников: <aqua>%uclans_limit_ally%'
+  - ' <gray>Соперников: <aqua>%uclans_limit_rival%'
+  - ' <gray>Мест: <aqua>%uclans_slots_total%'
+  - ' '
+  - ' <yellow>Лимиты увеличиваются, когда'
+  - <yellow>клан получает уровни.
+  General clan_stats items member_rival_ally name: '<green>Участники, Соперники и Союзники:'
+  General clan_stats items member_rival_ally lore:
+  - ' '
+  - '<yellow>Про участников, соперников и союзников:'
+  - ' '
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ' <gray>Участников в сети: <aqua>%uclans_count_onlinemembers%'
+  - ' <gray>Союзников: <aqua>%uclans_clan_count_ally%'
+  - ' <gray>Соперников: <aqua>%uclans_clan_count_rival%'
+  General clan_stats items others name: '<green>Другая статистика:'
+  General clan_stats items others lore:
+  - ' '
+  - '<yellow>Другая:'
+  - ' '
+  - ' <gray>Участников Вступило: <aqua>%uclans_clan_member_joined%'
+  - ' <gray>Участников Покинуло: <aqua>%uclans_clan_member_leave%'
+  - ' <gray>Участников Выгнали: <aqua>%uclans_clan_member_kicked%'
+  - ' <gray>Изменения тега: <aqua>%uclans_clan_tag_changed%'
+  General clan_stats items status name: '<green>Состояние:'
+  General clan_stats items status lore:
+  - ' '
+  - '<yellow>Про Состояние:'
+  - ' '
+  - ' <gray>Банк: <green>%uclans_money_currency%%uclans_bank_balance%'
+  - ' <gray>души: <green>%uclans_money_currency%%uclans_clan_souls%'
+  - ' <gray>Уровень: <aqua>%uclans_level%'
+  - ' <gray>Макс. достигнуый уровень: <aqua>%uclans_max_level_reached%'
+  - ' <gray>Очки: <aqua>%uclans_points%'
+  - ' <gray>Завершено заданий: <aqua>%uclans_quest_finished%'
+  General clan_stats items war name: '<green>War stats:'
+  General clan_stats items war lore:
+  - ' '
+  - '<yellow>Войны:'
+  - ' '
+  - ' <gray>Войн выиграно: <aqua>%uclans_clan_war_win%'
+  - ' <gray>Войн проиграно: <aqua>%uclans_clan_war_lose%'
+  - ' <gray>Войн всего: <aqua>%uclans_clan_war_total%'
+  General clan_stats items kdr name: '<green>KDR:'
+  General clan_stats items kdr lore:
+  - ' '
+  - '<yellow>KDR:'
+  - ' '
+  - ' <gray>Убийств: <aqua>%uclans_clan_kills%'
+  - ' <gray>Смертей: <aqua>%uclans_clan_deaths%'
+  - ' <gray>KDR: <aqua>%uclans_clan_kdr%'
+  General clan_stats items banner name: <green>Clan Banner
+  General clan_stats items banner lore:
+  - ' '
+  - ' <yellow>Баннеры:'
+  - ''
+  - ' <white>Есть Баннер: <aqua>%uclans_hasbanner_formated%'
+  General clan_stats items foundation name: '<green>Foundation:'
+  General clan_stats items foundation lore:
+  - ' '
+  - '<yellow>Про основание:'
+  - ' '
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Дата создания: <aqua>%uclans_creation_date_formated%'
+  - ' <gray>Верифицирован: <white>%uclans_verified%'
+  - ' <gray>Мест: <white>%uclans_slots% <dark_gray>(+%uclans_slots_extra%)'
+  - ' <gray>Open to all: <white>%uclans_isopen_formated%'
+  - ' '
+  - ' <gray>Модероторов (%uclans_count_moderators%):'
+  - '  <green>%uclans_moderators%'
+  General clan_stats items members name: '<green>List Members:'
+  General clan_stats items members lore:
+  - ' '
+  - ' <gray>Members: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Click to open.'
+  General clan_settings title: <blue>Настройки
+  General clan_settings items fill name: ' '
+  General clan_settings items fill lore: [
+    ]
+  General clan_settings items back name: <red>Назад
+  General clan_settings items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться'
+  General clan_settings items actions name: <green>Действия
+  General clan_settings items actions lore:
+  - ' <yellow>Нажмите, чтобы открыть.'
+  General clan_settings items delete name: <red>Удалить Клан
+  General clan_settings items delete lore:
+  - ' <yellow>Нажмите, чтобы удалить Клан'
+  - ' <red>Только лидер может сделать это!'
+  - ' <red>Это удалит защиту с вашей территории'
+  - ' <red>Это требует подтверждения в ЧАТе!'
+  - ' '
+  - ' <red>Осторожно, это действие необратимо!'
+  General clan_settings items join_leave name: <green>Вступить и Покинуть
+  General clan_settings items join_leave lore:
+  - ' '
+  - ' <white>Состояние: %uclans_settings_state:JOINLEAVE%'
+  - ''
+  - ' <yellow>Нажмите, чтобы переключить '
+  - ' '
+  - ' <red>Когда отключено, ваш клан больше не будет'
+  - <red>видеть сообщений когда кто-то
+  - <red>вступает или покидает клан.
+  General clan_settings items member_manager_wars name: <green>член управлять войнами
+  General clan_settings items member_manager_wars lore:
+  - ' '
+  - ' <white>State: %uclans_settings_state:MEMBERMANAGERWARS%'
+  - ''
+  - ' <yellow>Click to toggle '
+  - ' '
+  - ' <red>Когда отключено, только лидеры и модераторы '
+  - '<red>смогут принимать и отправлять '
+  - <red>запросы на войну.
+  General clan_settings items member_manager_homes name: <green>участник управляет домами
+  General clan_settings items member_manager_homes lore:
+  - ' '
+  - ' <white>State: %uclans_settings_state:MEMBERMANAGERHOMES%'
+  - ''
+  - ' <yellow>Click to toggle '
+  - ' '
+  - ' <red>Если этот параметр отключен, только модераторы'
+  - '<red>или лидеры смогут создавать или '
+  - <red>удалять дома для клана.
+  General clan_settings items opened name: <green>Clan open to all
+  General clan_settings items opened lore:
+  - ' '
+  - ' <white>State: %uclans_settings_state:OPENED%'
+  - ''
+  - ' <yellow>Click to toggle on and off if'
+  - <yellow>clan is open to all or invite-only.
+  General clan_settings items ff name: <green>Урон по своим
+  General clan_settings items ff lore:
+  - ' '
+  - ' <white>Состояние: %uclans_settings_state:CLANFF%'
+  - ''
+  - ' <yellow>Нажмите чтобы переключить '
+  - ' '
+  - ' <red>Когда включено, участники могут'
+  - <red>атаковать друг друга.
+  General clan_settings items allysharedhome name: <green>Дома Союзников
+  General clan_settings items allysharedhome lore:
+  - ' '
+  - ' <white>Состояние: %uclans_settings_state:ALLYSHAREDHOME%'
+  - ''
+  - ' <yellow>Нажмите, чтобы переключить '
+  - ' '
+  - ' <red>Когда отключено, дома вашего клана'
+  - <red>не появятся в списке у союзников.
+  General clan_settings items allysharedchat name: <green>Чат с союзниками
+  General clan_settings items allysharedchat lore:
+  - ' '
+  - ' <white>Состояние: %uclans_settings_state:ALLYSHAREDCHAT%'
+  - ''
+  - ' <yellow>Нажмите, чтобы переключить '
+  - ' '
+  - ' <red>Когда отключено, ваш клан не сможет'
+  - <red>получать или отправлять сообщения союзникам.
+  General clan_settings items warinvite name: <green>Приглашения на Войну
+  General clan_settings items warinvite lore:
+  - ' '
+  - ' <white>Состояние: %uclans_settings_state:WARINVITE%'
+  - ''
+  - ' <yellow>Нажмите, чтобы переключить '
+  - ' '
+  - ' <red>Когда отключено, ваш клан'
+  - <red>не сможет получать приглашения на Войну
+  General clan_actions title: <blue>Меню Действий
+  General clan_actions items fill name: ' '
+  General clan_actions items fill lore: [
+    ]
+  General clan_actions items back name: <red>Назад
+  General clan_actions items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_actions items sethome name: <green>Установить клановый Дом
+  General clan_actions items sethome lore:
+  - ' <yellow>Нажмите, чтобы установить клановый дом'
+  General clan_actions items name name: <green>Изменить название Клана
+  General clan_actions items name lore:
+  - ' <yellow>Нажмите, чтобы изменить название Клана.'
+  General clan_actions items desc name: <green>Изменить описание Клана
+  General clan_actions items desc lore:
+  - ' <yellow>Нажмите, чтобы изменить описание Клана.'
+  General clan_actions items modtag name: <green>Изменить тег Клана
+  General clan_actions items modtag lore:
+  - ' <yellow>Нажмите, чтобы изменить тег Клана'
+  General clan_top title: <blue>Список Кланов <gray>| %current%
+  General clan_top items fill name: ' '
+  General clan_top items fill lore: [
+    ]
+  General clan_top items active name: ' <green>Текущий'
+  General clan_top items active lore: [
+    ]
+  General clan_top items kdr name: <red>Топ KDR
+  General clan_top items kdr lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по KDR '
+  - ' '
+  General clan_top items kill name: <red>Топ по УБИЙСТВАМ
+  General clan_top items kill lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по Убийствам '
+  - ' '
+  General clan_top items death name: <red>Топ по СМЕРТЯМ
+  General clan_top items death lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по Смертям '
+  - ' '
+  General clan_top items bank name: <red>Топ по БАНКУ
+  General clan_top items bank lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по Банку '
+  - ' '
+  General clan_top items member name: <red>Топ по УЧАСТНИКАМ
+  General clan_top items member lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по Участникам '
+  - ' '
+  General clan_top items level name: <red>Топ по УРОВНЮ
+  General clan_top items level lore:
+  - ' <yellow>Click to order'
+  - '<yellow>от лучших по Уровню '
+  - ' '
+  General clan_top items current_all name: <green>Клан %uclans_tag_color%
+  General clan_top items current_all lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Дата создания: <green>%uclans_creation_date_formated%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_war name: <green>Clan %uclans_tag_color%
+  General clan_top items current_war lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Войн выиграно: <green>%uclans_clan_war_win%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_bank name: <green>Clan %uclans_tag_color%
+  General clan_top items current_bank lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Bank: <green>%uclans_money_currency%%uclans_bank_balance%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_member name: <green>Clan %uclans_tag_color%
+  General clan_top items current_member lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Участников: <green>%uclans_count_members%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_death name: <green>Clan %uclans_tag_color%
+  General clan_top items current_death lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Deaths: <green>%uclans_clan_deaths%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_kill name: <green>Clan %uclans_tag_color%
+  General clan_top items current_kill lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Kills: <green>%uclans_clan_kills%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_kdr name: <green>Clan %uclans_tag_color%
+  General clan_top items current_kdr lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>KDR: <green>%uclans_clan_kdr%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current_level name: <green>Clan %uclans_tag_color%
+  General clan_top items current_level lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items current name: <green>Clan %uclans_tag_color%
+  General clan_top items current lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра информации.'
+  General clan_top items war name: <red>Топ по Войнам
+  General clan_top items war lore:
+  - ' <yellow>Нажмите, чтобы упорядочить'
+  - '<yellow>список по войнам '
+  - ' '
+  General clan_top items all name: <red>All Verified
+  General clan_top items all lore:
+  - ' <yellow>Нажмите, чтобы упорядочить'
+  - '<yellow>список по Всем кланам '
+  - ' '
+  General clan_top items next name: <green>След.
+  General clan_top items next lore:
+  - ' <yellow>Нажмите, чтобы перейти дальше'
+  General clan_top items previous name: <green>Пред.
+  General clan_top items previous lore:
+  - ' <yellow>Нажмите, чтобы перейти назад'
+  General clan_top items back name: <red>Назад
+  General clan_top items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_members title: <blue>Меню Участников
+  General clan_members items fill name: ' '
+  General clan_members items fill lore: [
+    ]
+  General clan_members items fill2 name: ' '
+  General clan_members items fill2 lore: [
+    ]
+  General clan_members items back name: <red>Назад
+  General clan_members items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_members items invite name: <green>Пригласить игроков
+  General clan_members items invite lore:
+  - ' <yellow>Нажмите, чтобы пригласить игроков'
+  General clan_members items list name: <green>Список Участников
+  General clan_members items list lore:
+  - ' '
+  - ' <gray>Участников: <aqua>%uclans_count_members%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы просмотреть участников'
+  General clan_members_invite title: <blue>Invite Members
+  General clan_members_invite items fill name: ' '
+  General clan_members_invite items fill lore: [
+    ]
+  General clan_members_invite items back name: <red>Come back
+  General clan_members_invite items back lore:
+  - ' <yellow>Click to go back'
+  General clan_members_invite items current name: <green>%uclans_player%
+  General clan_members_invite items current lore:
+  - ''
+  - ' <gray>Nickname: <aqua>%uclans_player%'
+  - ' <gray>Kdr: <aqua>%uclans_player_kills%<dark_gray>/<aqua>%uclans_player_deaths% <dark_gray>(%uclans_player_kdr%)'
+  - ' <gray>Entry into: <aqua>%uclans_player_joindate_formated%'
+  - ' <gray>Last Seen: <aqua>%uclans_player_lastsee_formated%'
+  - ' '
+  - ' <yellow>Click to invite.'
+  General clan_members_invite items search name: <red>Search
+  General clan_members_invite items search lore:
+  - ' <yellow>Click to search members.'
+  General clan_search_members_invite title: <blue>Search Members <gray>| <dark_red>%amount%<gray>:<dark_red> %search%...
+  General clan_search_members_invite items fill name: ' '
+  General clan_search_members_invite items fill lore: [
+    ]
+  General clan_search_members_invite items back name: <red>Come back
+  General clan_search_members_invite items back lore:
+  - ' <yellow>Click to go back'
+  General clan_search_members_invite items current name: <green>%uclans_player%
+  General clan_search_members_invite items current lore:
+  - ''
+  - ' <gray>Nickname: <aqua>%uclans_player%'
+  - ' <gray>Kdr: <aqua>%uclans_player_kills%<dark_gray>/<aqua>%uclans_player_deaths% <dark_gray>(%uclans_player_kdr%)'
+  - ' <gray>Entry into: <aqua>%uclans_player_joindate_formated%'
+  - ' <gray>Last Seen: <aqua>%uclans_player_lastsee_formated%'
+  - ' '
+  - ' <yellow>Click to invite.'
+  General clan_ally title: <blue>Меню Союзов
+  General clan_ally items fill name: ' '
+  General clan_ally items fill lore: [
+    ]
+  General clan_ally items fill2 name: ' '
+  General clan_ally items fill2 lore: [
+    ]
+  General clan_ally items back name: <red>Назад
+  General clan_ally items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_ally items invite name: <green>Добавить или Удалить союзников
+  General clan_ally items invite lore:
+  - ' <yellow>Нажмите, чтобы добавить или удалить союзников'
+  General clan_ally items list name: <green>Список Союзов
+  General clan_ally items list lore:
+  - ' '
+  - ' <gray>Союзников: <aqua>%uclans_clan_count_ally%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы просмотреть список союзов'
+  General clan_rival title: <blue>Меню Соперников
+  General clan_rival items fill name: ' '
+  General clan_rival items fill lore: [
+    ]
+  General clan_rival items fill2 name: ' '
+  General clan_rival items fill2 lore: [
+    ]
+  General clan_rival items back name: <red>Назад
+  General clan_rival items back lore:
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  General clan_rival items invite name: <green>Добавить или Удалить соперников
+  General clan_rival items invite lore:
+  - ' <yellow>Нажмите, чтобы добавить или удалить соперников'
+  General clan_rival items list name: <green>Список Соперников
+  General clan_rival items list lore:
+  - ' '
+  - ' <gray>Соперников: <aqua>%uclans_clan_count_rival%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы просмотреть список соперников'
+  Pagination rival title: <blue>Список Соперников.
+  Pagination rival items fill name: ' '
+  Pagination rival items fill lore: [
+    ]
+  Pagination rival items back name: <red>Назад
+  Pagination rival items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination rival items next name: <green>Следующая страница
+  Pagination rival items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти на следующую страницу.'
+  Pagination rival items previous name: <green>Предыдущая страница
+  Pagination rival items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination rival items current name: <green>Клан %uclans_tag_color%
+  Pagination rival items current lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участники: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик чтобы посмотреть информацию.'
+  Pagination ally title: <blue>Список Союзников.
+  Pagination ally items fill name: ' '
+  Pagination ally items fill lore: [
+    ]
+  Pagination ally items back name: <red>Назад
+  Pagination ally items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination ally items next name: <green>Следующая страница
+  Pagination ally items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти на следующую страницу.'
+  Pagination ally items previous name: <green>Предыдущая страница
+  Pagination ally items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination ally items current name: <green>Clan %uclans_tag_color%
+  Pagination ally items current lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участников: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик чтобы посмотреть информацию.'
+  Pagination members title: <blue>Список Участников.
+  Pagination members items fill name: ' '
+  Pagination members items fill lore: [
+    ]
+  Pagination members items back name: <red>Назад
+  Pagination members items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination members items next name: <green>Следующая страница
+  Pagination members items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти на следующую страницу.'
+  Pagination members items previous name: <green>Предыдущая страница
+  Pagination members items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно'
+  Pagination members items current name: <green>%uclans_player%
+  Pagination members items current lore:
+  - ''
+  - ' <gray>Лидер: <aqua>%uclans_player_leader_yes_no%'
+  - ' <gray>Модераторы: <aqua>%uclans_player_mod_yes_no%'
+  - ' <gray>Никнейм: <aqua>%uclans_player%'
+  - ' <gray>Kdr: <aqua>%uclans_player_kills%<dark_gray>/<aqua>%uclans_player_deaths% <dark_gray>(%uclans_player_kdr%)'
+  - ' <gray>Вступил: <aqua>%uclans_player_joindate_formated%'
+  - ' <gray>Последний раз заходил: <aqua>%uclans_player_lastsee_formated%'
+  - ' '
+  - ' <yellow>Нажмите, чтобы увидеть информацию.'
+  Pagination clans title: <blue>Верифицированные кланы.
+  Pagination clans items fill name: ' '
+  Pagination clans items fill lore: [
+    ]
+  Pagination clans items back name: <red>Назад
+  Pagination clans items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination clans items next name: <green>Следующая страница
+  Pagination clans items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти дальше.'
+  Pagination clans items previous name: <green>Предыдущая страница
+  Pagination clans items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Pagination clans items current name: <green>Клан %uclans_tag_color%
+  Pagination clans items current lore:
+  - ''
+  - ' <yellow>Информация о клане'
+  - ' <gray>'
+  - ' <gray>Уровень: <green>%uclans_level%'
+  - ' <gray>'
+  - ' <gray>Тег: <aqua>%uclans_tag_color%'
+  - ' <gray>Лидер: <aqua>%uclans_leader%'
+  - ' <gray>Участников: <aqua>%uclans_count_members%'
+  - ''
+  - ' <yellow>Правый-Клик для просмотра инфомарции.'
+  Home clan_allyhome title: <blue>Дома Союзников
+  Home clan_allyhome items back name: <red>Назад
+  Home clan_allyhome items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Home clan_allyhome items next name: <green>Следующая страница
+  Home clan_allyhome items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти дальше.'
+  Home clan_allyhome items previous name: <green>Предыдущая страница
+  Home clan_allyhome items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться обратно.'
+  Home clan_allyhome items current name: <green>Home %uclans_home:<num>:name% of clan %uclans_tag_color%.
+  Home clan_allyhome items current lore:
+  - ''
+  - ' <yellow>Информация о домах'
+  - ' <gray>'
+  - ' <gray>Клан: <aqua>%uclans_tag_color%'
+  - ' <gray>Сервер: <green>%uclans_home:<num>:server%'
+  - ' <gray>Название: <aqua>%uclans_home:<num>:name%'
+  - ''
+  - ' <yellow>Левый-Клик для телепортации.'
+  Home clan_allyhome items fill name: ' '
+  Home clan_allyhome items fill lore: [
+    ]
+COMMANDS:
+  clan help show on_help: ' <aqua>/clan help <gray>-<yellow> Показать меню помощи.'
+  clan help show on_help_json hover_text: <green>Нажмите, чтобы увидеть меню помощи.
+  clan help show on_success: '%tag% <green>Вы видите помощь!'
+  clan help show on_error: '%tag%<red>Ошибка при отображении текста.'
+  clan help show on_usage: '%tag% <red>Используй <aqua>/clan help'
+  clan create show on_help_json hover_text: <green>Нажмите, чтобы создать новый клан.
+  clan create show on_help: ' <aqua>/clan create <gray>-<yellow> Создать новый Клан.'
+  clan create show on_success: '%tag% <green>Вы создали новый клан!'
+  clan create show on_error: '%tag% <red>Ошибка при создании клана, попробуйте еще раз.'
+  clan create show on_usage: '%tag% <red>Используйте <aqua>/clan create <тег>'
+  clan cancel show on_help_json hover_text: <green>Нажмите, чтобы отменить ожидающие действия.
+  clan cancel show on_help: ' <aqua>/clan cancel <gray>-<yellow> Отменить ожидающие действия.'
+  clan cancel show on_success: '%tag% <green>Успешно отменено!!'
+  clan cancel show on_error: '%tag% <red>Ошибка при отмене'
+  clan cancel show on_usage: '%tag% <red>Используйте <aqua>/clan cancel'
+  clan changeleader show on_help_json hover_text: <green>Нажмите, чтобы передать лидерство.
+  clan changeleader show on_help: ' <aqua>/clan changeleader <игрок> <gray>-<yellow> Передать лидерство.'
+  clan changeleader show on_success: '%tag% <green>Вы изменили лидерство клана %clan_leader%'
+  clan changeleader show on_error: '%tag% <red>Ошибка при передаче лидерства.'
+  clan changeleader show on_usage: '%tag% <red>Используйте <aqua>/clan changeleader <игрок>'
+  clan desc show on_help: ' <aqua>/clan desc <gray>-<yellow> Добавить описание для Клана.'
+  clan desc show on_help_json hover_text: <green>Нажмите, чтобы добавить/изменить описание клана.
+  clan desc show on_success: '%tag% <green>Вы изменили описание клана!'
+  clan desc show on_error: '%tag% <red>Ошибка при изменении описания клана.'
+  clan desc show on_usage: '%tag% <red>Используйте <aqua>/clan desc <description>'
+  clan disband show on_help: ' <aqua>/clan disband <gray>-<yellow> Удалить ваш Клан.'
+  clan disband show on_help_json hover_text: <green>Нажмите, чтобы удалить ваш Клан.
+  clan disband show on_success: '%tag% <green>Вы удалили ваш Клан!'
+  clan disband show on_error: '%tag% <red>Ошибка при удалении, попробуйте ещё раз.'
+  clan disband show on_usage: '%tag% <red>Используйте <aqua>/clan disband CONFIRM'
+  clan leave show on_help: ' <aqua>/clan leave <gray>-<yellow> Покинуть Клан.'
+  clan leave show on_help_json hover_text: <green>Нажмите, чтобы покинуть клан.
+  clan leave show on_success: '%tag% <green>Вы покинули клан!'
+  clan leave show on_error: '%tag% <red>Ошибка при покидании клана, попробуйте еще раз.'
+  clan leave show on_usage: '%tag% <red>Используйте <aqua>/clan leave'
+  clan invite show on_help: ' <aqua>/clan invite <игрок> <gray>-<yellow> Пригласить Игрока в ваш клан.'
+  clan invite show on_help_json hover_text: <green>Нажмите, чтобы отправить приглашение игроку
+  clan invite show on_success: '%tag% <green>Приглашение было отправлено игроку, ожидайте!'
+  clan invite show on_error: '%tag% <red>Ошибка при приглашении игрока.'
+  clan invite show on_usage: '%tag% <red>Используйте <aqua>/clan invite <игрок>'
+  clan join show on_help: ' <aqua>/clan join <тег> <gray>- <yellow>Принять приглашение в клан.'
+  clan join show on_help_json hover_text: <green>Нажмите, чтобы принять приглашение.
+  clan join show on_success: '%tag% <green>Вы приняли приглашение в клан!'
+  clan join show on_error: '%tag% <red>Ошибка при входе в клан, попробуйте еще раз.'
+  clan join show on_usage: '%tag% <red>Используйте <aqua>/clan join <тег>'
+  clan deny show on_help: ' <aqua>/clan deny <тег> <gray>- <yellow>Отклонить приглашение в клан.'
+  clan deny show on_help_json hover_text: <green>Нажмите, чтобы cancel invite.
+  clan deny show on_success: '%tag% <green>Вы отклонили приглашение в клан!'
+  clan deny show on_error: '%tag% <red>Ошибка при попытке отклонить приглашение в клан.'
+  clan deny show on_usage: '%tag% <red>Используйте <aqua>/clan deny <тег>'
+  clan kick show on_help: ' <aqua>/clan kick <игрок> <gray>-<yellow> Выгнать игрока из клана.'
+  clan kick show on_help_json hover_text: <green>Нажмите, чтобы выгнать игрока из клана.
+  clan kick show on_success: '%tag% <green>Игрок был выгнан из клана.'
+  clan kick show on_error: '%tag% <red>Ошибка при попытке выгнать игрока из клана.'
+  clan kick show on_usage: '%tag% <red>Используйте <aqua>/clan kick <игрок>'
+  clan promote show on_help: ' <aqua>/clan promote <игрок> <gray>-<yellow> Повысить игрока до модератора клана.'
+  clan promote show on_help_json hover_text: <green>Нажмите, чтобы повысить игрока.
+  clan promote show on_success: '%tag% <green>Игрок повышен до модератора клана.'
+  clan promote show on_error: '%tag% <red>Ошибка при повышении игрока, попробуйте еще раз.'
+  clan promote show on_usage: '%tag% <red>Используйте <aqua>/clan promote <игрок>'
+  clan demote show on_help: ' <aqua>/clan demote <игрок> <gray>-<yellow> понизить игрока из клана.'
+  clan demote show on_help_json hover_text: <green>Нажмите, чтобы понизить игрока.
+  clan demote show on_success: '%tag% <green>Игрок в клане был понижен.'
+  clan demote show on_error: '%tag% <red>Ошибка при понижении игрока, попробуйте еще раз'
+  clan demote show on_usage: '%tag% <red>Используйте <aqua>/clan demote <игрок>'
+  clan home show on_help: ' <aqua>/clan home <create|delete|list|teleport> <название> <gray>-<yellow> Телепортироваться в клановый дом.'
+  clan home show on_help_json hover_text: <green>Нажмите, чтобы телепортироваться в клановый дом.
+  clan home show on_success: '%tag% <green>Вы были телепортированы в клановый дом!'
+  clan home show on_error: '%tag% <red>Ошибка при телепортировании в клановый дом.'
+  clan home show on_usage: '%tag% <red>Используйте <aqua>/clan home <create|delete|list|teleport> <название>'
+  clan chat show on_help: ' <aqua>/clan chat <gray>-<yellow> Переключите чат на клановый или используйте <aqua>/  <сообщение>'
+  clan chat show on_help_json hover_text: <green>Нажмите, чтобы переключить чат на клановый.
+  clan chat show on_success: '%tag% <green>Чат переключен на: <aqua>%player_chat%'
+  clan chat show on_error: '%tag% <red>Ошибка при использовании чата.'
+  clan chat show on_usage: '%tag% <red>Используйте <aqua>/clan chat'
+  clan ff show on_help: ' <aqua>/clan ff <gray>-<yellow> переключить урон по своим в клане.'
+  clan ff show on_help_json hover_text: <green>Нажмите, чтобы переключить урон по своим в клане.
+  clan ff show on_success: '%tag% <green>Урон по своим был изменен на <aqua>%clan_ff%'
+  clan ff show on_error: '%tag% <red>Ошибка при попытке переключить огонь по своим.'
+  clan ff show on_usage: '%tag% <red>Используйте <aqua>/clan ff'
+  clan modtag show on_help: ' <aqua>/clan modtag <новыйТег> <gray>-<yellow> Изменить тег клана.'
+  clan modtag show on_help_json hover_text: <green>Нажмите, чтобы change Tag.
+  clan modtag show on_success: '%tag% <green>Тег клана изменен на <aqua>%clan_tag%'
+  clan modtag show on_error: '%tag% <red>Ошибка при попытке изменить название клана.'
+  clan modtag show on_usage: '%tag% <red>Используйте <aqua>/clan modtag <новыйТег>'
+  clan list show on_help: ' <aqua>/clan list <gray>-<yellow> Список всех Кланов.'
+  clan list show on_help_json hover_text: <green>Нажмите, чтобы увидеть все кланы.
+  clan list show on_success: '%tag% <green>Список успешно открыт.'
+  clan list show on_error: '%tag% <red>Ошибка при попытке открыть список кланов.'
+  clan list show on_usage: '%tag% <red>Используйте <aqua>/clan list'
+  clan info show on_help: ' <aqua>/clan info [тег] <gray>-<yellow> Показать информацию о клане.'
+  clan info show on_help_json hover_text: <green>Нажмите, чтобы показать информацию о клане.
+  clan info show on_success: ''
+  clan info show on_error: '%tag% <red>Ошибка при просмотре информации о клане.'
+  clan info show on_usage: '%tag% <red>Используйте <aqua>/clan info [тег]'
+  clan profile show on_help: ' <aqua>/clan profile [игрок] <gray>-<yellow> Показать профиль игрока в клане.'
+  clan profile show on_help_json hover_text: <green>Нажмите, чтобы показать профиль.
+  clan profile show on_success: '%tag% <green>Профиль успешно открыт.'
+  clan profile show on_error: '%tag% <red>Ошибка при попытке просмотра профиля игрока.'
+  clan profile show on_usage: '%tag% <red>Используйте <aqua>/clan profile [игрок]'
+  clan rival show on_help: ' <aqua>/clan rival <add/remove> <тег> <gray>-<yellow> Добавить клан в соперники.'
+  clan rival show on_help_json hover_text: <green>Нажмите, чтобы добавить/удалить клан из соперников.
+  clan rival show on_success: '%tag% <green>Список соперников обновлен.'
+  clan rival show on_error: '%tag% <red>Ошибка при попытке обновить статус соперника.'
+  clan rival show on_usage: '%tag% <red>Используйте <aqua>/clan rival <add/remove> <тег>.'
+  clan rivalries show on_help: ' <aqua>/clan rivalries <gray>-<yellow> Список соперников'
+  clan rivalries show on_help_json hover_text: <green>Нажмите, чтобы показать список соперников.
+  clan rivalries show on_success: '%tag% <green>Список успешно открыт.'
+  clan rivalries show on_error: '%tag% <red>Ошибка при попытке показать список соперников.'
+  clan rivalries show on_usage: '%tag% <red>Используйте <aqua>/clan rivalries'
+  clan ally show on_help: ' <aqua>/clan ally <add/remove/accept/deny> <тег> <gray>-<yellow> союзники клана (добавить/удалить/принять/отклонить).'
+  clan ally show on_help_json hover_text: <green>Нажмите, чтобы добавить/удалить клан как союзный.
+  clan ally show on_success: '%tag% <green>Список союзников обновлен.'
+  clan ally show on_error: '%tag% <red>Ошибка при использовании /clan ally.'
+  clan ally show on_usage: '%tag% <red>Используйте <aqua>/clan ally <add/remove/accept/deny> <тег>.'
+  clan alliances show on_help: ' <aqua>/clan alliances <gray>-<yellow> Список союзников.'
+  clan alliances show on_help_json hover_text: <green>Нажмите, чтобы показать список союзных кланов.
+  clan alliances show on_success: '%tag% <green>Список успешно открыт.'
+  clan alliances show on_error: '%tag% <red>Ошибка при использовании списка союзников.'
+  clan alliances show on_usage: '%tag% <red>Используйте <aqua>/clan alliances.'
+  clan members show on_help: ' <aqua>/clan members <gray>-<yellow> Показать список участников.'
+  clan members show on_help_json hover_text: <green>Нажмите, чтобы показать список участников клана.
+  clan members show on_success: '%tag% <green>Список участников открыт.'
+  clan members show on_error: '%tag% <red>Ошибка при попытке показать список участников.'
+  clan members show on_usage: '%tag% <red>Используйте <gold>/clan members'
+  clan settings show on_help: ' <aqua>/clan settings <ТИП> <ЗНАЧЕНИЕ> <gray>-<yellow> Изменить клановые параметры.'
+  clan settings show on_help_json hover_text: <green>Нажмите, чтобы изменить клановые настройки
+  clan settings show on_success: '%tag% <green>Клановые настройки изменены <aqua>%type%<gray>:<aqua>%value%'
+  clan settings show on_error: '%tag% <red>Возникла ошибка при попытке изменить настройки клана.'
+  clan settings show on_usage: '%tag% <red>Используйте <aqua>/clan settings <ТИП> <ЗНАЧЕНИЕ>'
+  clan regroup show on_help: ' <aqua>/clan regroup <send/accept/deny> <gray>-<yellow> Регруппировать клан'
+  clan regroup show on_help_json hover_text: <green>Нажмите, чтобы регруппировать клан
+  clan regroup show on_success: '%tag% <green>Запрос на регруппировку был отправлен.'
+  clan regroup show on_error: '%tag% <red>Возникла ошибка при попытке регруппировать клан.'
+  clan regroup show on_usage: '%tag% <red>Используйте <aqua>/clan regroup <send/accept/deny>'
+  uclan help show on_help: ' <dark_red>/uclan help <gray>-<yellow> Показать меню помощи.'
+  uclan help show on_help_json hover_text: <green>Нажмите, чтобы показать помощь по Кланам.
+  uclan help show on_success: '%tag% <green>Помощь успешно открыта.'
+  uclan help show on_error: '%tag% <red>Ошибка при попытке получить помощь по кланам'
+  uclan help show on_usage: '%tag% <red>Используйте <aqua>/uclan help'
+  uclan chatspy show on_help: ' <dark_red>/uclan chatspy <gray>-<yellow> Подглядывать сообщения в клан-чатах'
+  uclan chatspy show on_help_json hover_text: <green>Нажмите, чтобы подглядывать в клан-чатах
+  uclan chatspy show on_success: '%tag% <green>Шпионство в кланах: %state%'
+  uclan chatspy show on_error: '%tag% <red>Ошибка при попытке переключить шпионство в клан-чатах.'
+  uclan chatspy show on_usage: '%tag% <red>Используйте <dark_red>/uclan chatspy'
+  uclan addslot show on_help: ' <dark_red>/uclan addslot <игрок|тег> <кол-во> <gray>-<yellow> Добавить места для клана.'
+  uclan addslot show on_help_json hover_text: <green>Нажмите, чтобы добавить места для клана
+  uclan addslot show on_success: '%tag% <green>Вы добавили места (%num%) в %clan% клан'
+  uclan addslot show on_error: '%tag% <red>Возникла ошибка при попытке добавить места клану.'
+  uclan addslot show on_usage: '%tag% <red>Используйте <dark_red>/uclan addslot <игрок|тег> <кол-во>'
+  uclan setslot show on_help: ' <dark_red>/uclan setslot <игрок|тег> <кол-во> <gray>-<yellow> Установить кол-во мест для клана.'
+  uclan setslot show on_help_json hover_text: <green>Нажмите, чтобы установить кол-во мест для клана
+  uclan setslot show on_success: '%tag% <green>Вы установили места (%num%) клану %clan%'
+  uclan setslot show on_error: '%tag% <red>Возникла ошибка при попытке установить кол-во мест клану.'
+  uclan setslot show on_usage: '%tag% <red>Используйте <dark_red>/uclan setslot <игрок|тег> <кол-во>'
+  uclan removeslot show on_help: ' <dark_red>/uclan removeslot <игрок|тег> <кол-во> <gray>-<yellow> Удалить места в клане.'
+  uclan removeslot show on_help_json hover_text: <green>Нажмите, чтобы удалить места в клане
+  uclan removeslot show on_success: '%tag% <green>Вы удалили места (%num%) клану %clan%'
+  uclan removeslot show on_error: '%tag% <red>Возникла ошибка при попытке удалить места клану.'
+  uclan removeslot show on_usage: '%tag% <red>Используйте <dark_red>/uclan removeslot <игрок|тег> <кол-во>'
+  uclan addpoints show on_help: ' <dark_red>/uclan addpoints <игрок|тег> <кол-во> [reason] <gray>-<yellow> Добавить очки для клана.'
+  uclan addpoints show on_help_json hover_text: <green>Нажмите, чтобы добавить очки для клана
+  uclan addpoints show on_success: '%tag% <green>Вы добавили очки (%num%) клану %clan%'
+  uclan addpoints show on_error: '%tag% <red>Ошибка при попытке добавить очки клану.'
+  uclan addpoints show on_usage: '%tag% <red>Используйте <dark_red>/uclan addpoints <игрок|тег> <кол-во> [reason]'
+  uclan setpoints show on_help: ' <dark_red>/uclan setpoints <игрок|тег> <кол-во> [reason] <gray>-<yellow> установить очки для клана.'
+  uclan setpoints show on_help_json hover_text: <green>Нажмите, чтобы установить очки для клана
+  uclan setpoints show on_success: '%tag% <green>You have set %num% points to the %clan% clan'
+  uclan setpoints show on_error: '%tag% <red>There was an error adding.'
+  uclan setpoints show on_usage: '%tag% <red>Используйте <dark_red>/uclan setpoints <игрок|тег> <кол-во> [reason]'
+  uclan removepoints show on_help: ' <dark_red>/uclan removepoints <игрок|тег> <кол-во> [reason] <gray>-<yellow> Удалить очки клану.'
+  uclan removepoints show on_help_json hover_text: <green>Нажмите, чтобы удалить очки клану
+  uclan removepoints show on_success: '%tag% <green>Вы удалили очки (%num%) клану %clan%'
+  uclan removepoints show on_error: '%tag% <red>Ошибка при попытке удалить очки клану.'
+  uclan removepoints show on_usage: '%tag% <red>Используйте <dark_red>/uclan removepoints <игрок|тег> <кол-во> [reason]'
+  uclan changetag show on_help: ' <dark_red>/uclan changetag <тег> <новыйТег> <gray>-<yellow> Изменить клану тег.'
+  uclan changetag show on_help_json hover_text: <green>Нажмите, чтобы изменить клану тег.
+  uclan changetag show on_success: '%tag% <green>Клановый тег <aqua>%clan% <green>был изменен на <aqua>%newtag%'
+  uclan changetag show on_error: '%tag% <red>Ошибка при попытке изменить клан тег.'
+  uclan changetag show on_usage: '%tag% <red>Используйте <dark_red>/uclan changetag <тег> <новыйТег>'
+  uclan resetplayerkdr show on_help: ' <dark_red>/uclan resetplayerkdr <игрок> <gray>-<yellow> Сбросить KDR для игрока.'
+  uclan resetplayerkdr show on_help_json hover_text: <green>Нажмите, чтобы сброить игроку KDR
+  uclan resetplayerkdr show on_success: '%tag% <green>Вы сбросили KDR для игрока <green>%player%'
+  uclan resetplayerkdr show on_error: '%tag% <red>Ошибка при попытке сбросить KDR игроку'
+  uclan resetplayerkdr show on_usage: '%tag% <red>Используйте <dark_red>/uclan resetplayerkdr <игрок>'
+  uclan resetclankdr show on_help: ' <dark_red>/uclan resetclankdr <тег> <gray>-<yellow> Сбросить KDR клану.'
+  uclan resetclankdr show on_help_json hover_text: <green>Нажмите, чтобы сбросить KDR для клана
+  uclan resetclankdr show on_success: '%tag% <green>Вы бросили KDR для клана <green>%uclans_tag_color%'
+  uclan resetclankdr show on_error: '%tag% <red>Ошибка при попытке сбросить KDR для клана'
+  uclan resetclankdr show on_usage: '%tag% <red>Используйте <dark_red>/uclan resetclankdr <тег>'
+  uclan globalff show on_help: ' <dark_red>/uclan globalff <gray>-<yellow> Изменить глобальный урон по игрокам.'
+  uclan globalff show on_help_json hover_text: <green>Нажмите, чтобы переключить глобальный урон по игрокам
+  uclan globalff show on_success: '%tag% <green>Вы изменили глобальный урон по игрокам на <aqua>%globalff%'
+  uclan globalff show on_error: '%tag% <red>Ошибка при попытке переключить глобальный урон по игрокам.'
+  uclan globalff show on_usage: '%tag% <red>Используйте <dark_red>/uclan globalff'
+  uclan delete show on_help: ' <dark_red>/uclan delete <тег> <gray>-<yellow> Удалить клан.'
+  uclan delete show on_help_json hover_text: <green>Нажмите, чтобы удалить клан.
+  uclan delete show on_success: '%tag% <green>Вы удалили клан!'
+  uclan delete show on_error: '%tag% <red>Ошибка при удалении клана.'
+  uclan delete show on_usage: '%tag% <red>Используйте <dark_red>/uclan delete <тег>'
+  uclan forcejoin show on_help: ' <dark_red>/uclan forcejoin <игрок> <тег> <gray>-<yellow> Добавить игрока в клан.'
+  uclan forcejoin show on_help_json hover_text: <green>Нажмите, чтобы добавить игрока в клан.
+  uclan forcejoin show on_success: '%tag% <green>Вы добавили игрока в клан!'
+  uclan forcejoin show on_error: '%tag% <red>Ошибка при попытке добавить игрока в клан.'
+  uclan forcejoin show on_usage: '%tag% <red>Используйте <dark_red>/uclan forcejoin <игрок> <тег>'
+  uclan verify show on_help: ' <dark_red>/uclan verify <тег> <gray>-<yellow> Верифицировать клан.'
+  uclan verify show on_help_json hover_text: <green>Нажмите, чтобы верифицировать клан.
+  uclan verify show on_success: '%tag% <green>Вы переключили верификацию для клана!'
+  uclan verify show on_error: '%tag% <red>Error checking the clan.'
+  uclan verify show on_usage: '%tag% <red>Используйте <dark_red>/uclan verify <тег>'
+  uclan reload show on_help: ' <dark_red>/uclan reload <gray>-<yellow> Перезагрузить плагин.'
+  uclan reload show on_help_json hover_text: <green>Нажмите, чтобы перезагрузить плагин.
+  uclan reload show on_success: '%tag% <green>Плагин успешно перезагружен <gray>(%time%).'
+  uclan reload show on_error: '%tag% <red>Ошибка при попытке перезагрузить плагин.'
+  uclan reload show on_usage: '%tag% <red>Используйте <dark_red>/uclan reload'
+  uclan reloadaddons show on_help: ' <dark_red>/uclan reloadaddons <gray>-<yellow> Перезагрузить аддоны.'
+  uclan reloadaddons show on_help_json hover_text: <green>Нажмите, чтобы перезагрузить аддоны.
+  uclan reloadaddons show on_success: '%tag% <green>Аддоны успешно перезагружены! <gray>(%time%).'
+  uclan reloadaddons show on_error: '%tag% <red>Ошибка при перезагрузке аддонов.'
+  uclan reloadaddons show on_usage: '%tag% <red>Используйте <dark_red>/uclan reloadaddons'
+  uclan exportdata show on_help: ' <dark_red>/uclan exportdata <red><MYSQL|SQLITE|YAML> <gray>-<yellow> экспортировать данные.'
+  uclan exportdata show on_help_json hover_text: <green>Нажмите, чтобы экспортировать данные.
+  uclan exportdata show on_success: '%tag% <green>e inició la exportación de datos, puede seguir el progreso a continuación..'
+  uclan exportdata show on_error: '%tag% <red>Ошибка экспорта данных.'
+  uclan exportdata show on_usage: '%tag% <red>Используйте <dark_red>/uclan exportdata <red><MYSQL|SQLITE|YAML>'
